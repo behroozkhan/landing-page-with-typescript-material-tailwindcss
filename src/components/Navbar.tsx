@@ -15,7 +15,7 @@ const Navbar = () => {
             </ul>
             <div className="space-x-10">
                 <Button variant="contained"  className="btn primiary">UI Kit</Button>
-                <button className="btn secondary">Get In Touch</button>
+                <Button variant="contained" className="btn secondary">Get In Touch</Button>
             </div>
         </div>
     </div>
