@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.bgVector{
+    background: url("assets/Path.svg");
+    /* background-position: center ; */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+
