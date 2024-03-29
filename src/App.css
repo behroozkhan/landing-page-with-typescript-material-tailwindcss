@@ -7,9 +7,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    /* width: 100%; */
     scroll-behavior: smooth;
 }
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /* width: 100%; */
+  }
+
+  .mainFileApp{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .bgVector{
     background: url("assets/Path.svg");
@@ -17,5 +31,27 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     
+}
+
+/* nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+  } */
+
+.navbar-menu-container {
+    display: none;
+  }
+
+
+
+  @media (max-width: 1200px) {
+    .navbar-menu-container {
+        display: flex;
+    }
+    .nav-item{
+        display: none;
+    }
 }
 
