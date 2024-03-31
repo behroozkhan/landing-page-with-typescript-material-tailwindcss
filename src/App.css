@@ -45,6 +45,20 @@ body {
   }
 
 
+  .price-container{
+    position: relative;
+
+  }
+.curved-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Adjust the height of the curve as needed */
+  background-color: #fff; 
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
 
   @media (max-width: 1200px) {
     .navbar-menu-container {
@@ -81,6 +95,28 @@ body {
   }
   .service-container-img{
     margin-left: 2.500rem;
+  }
+
+  .curved-section {
+    height: 20vw; 
+  }
+
+  .price-container-head {
+    font-size: 1.500rem;
+  }
+  .price-container-money{
+    margin-top: 10px;
+
+  }
+  .price-container-money{
+    width: 80%;
+    margin-top: 1.200rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .curved-section {
+    height: 25vw; 
   }
 }
 
