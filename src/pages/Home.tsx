@@ -1,4 +1,5 @@
 import About from '../components/About';
+import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Price from '../components/Price';
@@ -21,6 +22,9 @@ const Home = () => {
         </div>
         <div>
           <Price/>
+        </div>
+        <div>
+          <Footer/>
         </div>
     </div>
   )

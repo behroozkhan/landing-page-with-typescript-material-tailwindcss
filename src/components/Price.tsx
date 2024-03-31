@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 
 const Price = () => {
   return (
-    <div className="price-container bg-[#E7ECFF] p-20 mt-10">
+    <div className="price-container bg-[#f2f5ff] p-20 mt-10">
         <div className="curved-section" ></div>
         <section className="flex flex-col justify-center items-center mt-40">
             <div className="flex flex-col justify-center items-center">
