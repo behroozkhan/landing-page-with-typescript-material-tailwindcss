@@ -24,13 +24,12 @@ const Hero = () => {
             </div>
           </div> */}
 
-            <div>
-
-                <section className="min-h-[60vh] lg:min-h-[70vh] relative">
+            {/* <div> */}
+                <section className=" min-h-[60vh] lg:min-h-[70vh] relative">
                     <div className="p-6">
                         <div className="flex">
                             <div
-                                className="w-full h-[100%] lg:w-2/4 flex flex-col sm:space-y-20 space-y-6 mt-20 text-min-h-[60vh] lg:min-h-[70vh] relative">
+                                className="w-full h-[100%] lg:w-2/4  flex flex-col sm:space-y-20 space-y-6  text-min-h-[60vh] lg:min-h-[70vh] relative">
                                 <div className="p-10  text-[#091133">
                                     <h1 className="text-[1.8rem]  font-bold  font-sans leading-normal">
                                         Introduce Your Product <br></br> Quickly & Effectively
@@ -55,13 +54,13 @@ const Hero = () => {
                                     // className=" min-h-[400px] min-w-[300px] flip duration-500"
                                     // width="800"
                                     // height="600"
-                                    className="w-[600px]"
+                                    className="w-[500px] object-cover"
                                 />
                             </div>
                         </div>
                     </div>
                 </section>
-            </div>
+            {/* </div> */}
 
 
 
