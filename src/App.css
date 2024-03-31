@@ -19,7 +19,7 @@ body {
 
   .mainFileApp{
     width: 100%;
-    /* background-color: blue; */
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,4 +54,34 @@ body {
         display: none;
     }
 }
+
+@media (max-width: 700px) {
+  .about-container{
+    flex-wrap: wrap;
+  }
+  .about-container-para{
+    width: 100%;
+  }
+  .about-container-head{
+    font-size: 1.8rem;
+  }
+
+  .about-container-content{
+    width: 100%;
+    gap: 35px;
+    margin-bottom: 1.500rem;
+  }
+
+  .service-container{
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+  }
+  .service-container-para{
+    width: 85%;
+  }
+  .service-container-img{
+    margin-left: 2.500rem;
+  }
+}
+
 
